@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS kana;
+CREATE TABLE kana(id serial PRIMARY KEY, kana VARCHAR(255), romaji VARCHAR(3), system VARCHAR(10), level VARCHAR(10), nbLine INTEGER, note VARCHAR(255));
