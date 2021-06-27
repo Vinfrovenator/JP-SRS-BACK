@@ -1,9 +1,9 @@
-package com.jpsrs.api.kana.repository;
+package com.jpsrs.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.jpsrs.api.kana.model.Kana;
+import com.jpsrs.model.alphabet.Kana;
 
 @Repository
 public interface KanaRepository extends CrudRepository<Kana, Long> {

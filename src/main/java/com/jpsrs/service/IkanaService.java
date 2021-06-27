@@ -1,8 +1,8 @@
-package com.jpsrs.api.kana.service;
+package com.jpsrs.service;
 
 import java.util.Optional;
 
-import com.jpsrs.api.kana.model.Kana;
+import com.jpsrs.model.alphabet.Kana;
 
 public interface IkanaService {
 
@@ -12,6 +12,6 @@ public interface IkanaService {
 	
 	void deleteKana(final Long id);
 	
-	Kana saveKana(Kana kana);
+	Kana updateKana(Kana kana);
 	
 }

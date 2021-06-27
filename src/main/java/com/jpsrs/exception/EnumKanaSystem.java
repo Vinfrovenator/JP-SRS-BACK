@@ -1,4 +1,4 @@
-package com.jpsrs.api.kana.model;
+package com.jpsrs.exception;
 
 public enum EnumKanaSystem {
 	HIRAGANA, KATAKANA

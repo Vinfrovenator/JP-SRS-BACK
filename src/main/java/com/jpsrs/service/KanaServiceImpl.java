@@ -1,12 +1,12 @@
-package com.jpsrs.api.kana.service;
+package com.jpsrs.service;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.jpsrs.api.kana.model.Kana;
-import com.jpsrs.api.kana.repository.KanaRepository;
+import com.jpsrs.model.alphabet.Kana;
+import com.jpsrs.repository.KanaRepository;
 
 @Service
 public class KanaServiceImpl implements IkanaService{
@@ -30,9 +30,8 @@ public class KanaServiceImpl implements IkanaService{
 	}
 	
 	@Override
-	public Kana saveKana(Kana kana) {
-		Kana savedKana = kanaRepository.save(kana);
-		return savedKana;
+	public Kana updateKana(Kana kana) {
+		return kanaRepository.save(kana);
 	}
 
 }

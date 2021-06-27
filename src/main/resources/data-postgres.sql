@@ -217,3 +217,5 @@ INSERT INTO kana(kana,romaji,system,nbLine,level,note) VALUES('ミョ', 'MYO','K
 INSERT INTO kana(kana,romaji,system,nbLine,level,note) VALUES('リャ', 'RYA','KATAKANA',4,'COMPOUNDS','');
 INSERT INTO kana(kana,romaji,system,nbLine,level,note) VALUES('リュ', 'RYU','KATAKANA',4,'COMPOUNDS','');
 INSERT INTO kana(kana,romaji,system,nbLine,level,note) VALUES('リョ', 'RYO','KATAKANA',5,'COMPOUNDS','');
+
+INSERT INTO kanji(kanji, meaning, onYomi, kunYomi, jlpt, radical, frequency, nbline, note) VALUES('一', 'One', 'イツ', 'ひと.つ', 'JLPTN5', '一', 2, 1, 'Ce kanji est souvent utilisé comme le chiffre 1 (voir Numération japonaise), il sert à compter en japonais.');
